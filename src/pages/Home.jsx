@@ -3,8 +3,10 @@ import React from 'react'
 import Nav from '../components/Nav';
 import Hero from '../components/Hero'
 import { carousselData } from '../components/Hero/carousselData';
-import OurComppany from '../components/OurComppany';
-import Contact from '../components/Contact';
+
+
+import Services from '../components/Services';
+import About from '../components/About';
 
 const Home = () => {
 
@@ -13,9 +15,12 @@ const Home = () => {
       <Nav />
 
       <Hero data={carousselData} />
-      <div className=' space-y-10'>
-        <OurComppany />
-        <Contact/>
+      <div className="sm:space-y-40 space-y-16">
+        <div></div>
+        <About/>
+        <Services/>
+        {/* <Projects/> */}
+        {/* <Contact /> */}
       </div>
     </>
   );

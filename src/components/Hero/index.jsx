@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "tailwindcss/tailwind.css";
 import HighlightedHeading from './carousselData'
+import Button from "../Button";
 
 
 const Hero = ({data}) => {
@@ -31,7 +32,7 @@ const Hero = ({data}) => {
             <img
               src={banner.image}
               alt={`Banner ${index + 1}`}
-              className="w-full h-[500px] object-cover"
+              className="w-full h-[550px] object-cover"
             />
             <div
               className="absolute top-0 w-full h-full border-4 border-black bg-gray-900
@@ -52,12 +53,11 @@ const Hero = ({data}) => {
               <p className="text-gray-100 sm:text-3xl">
                 {banner.text.subheading}
               </p>
-              <button
-                className="rounded-full
-              py-3 px-6 bg-secondary text-white sm:text-xl mt-8"
-              >
-                {banner.text.callToAction}
-              </button>
+              <div className="mt-8">
+                <Button backgroundColor={"secondary"}>
+                  {banner.text.callToAction}
+                </Button>
+              </div>
             </div>
           </div>
         ))}
