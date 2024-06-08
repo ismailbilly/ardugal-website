@@ -5,7 +5,12 @@ const BestPractices = () => {
     <div className="">
       <div className=" md:px-10 px-7 sm:max-w-[1024px] mx-auto">
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-6">
-          <div className="sm:mt-8 sm:space-y-20 space-y-8 ">
+          <div
+            className="sm:mt-8 sm:space-y-20 space-y-8 "
+            data-aos="fade-up-right"
+            data-aos-delay={200}
+            data-aos-duration={1000}
+          >
             <div>
               <div className="font-semibold text-xl text-red-800">
                 Compliance
@@ -29,7 +34,12 @@ const BestPractices = () => {
           <div className="rounded-full overflow-hidden">
             <img src={engImg} alt="" w={100} h={100} />
           </div>
-          <div className="sm:mt-8 sm:space-y-20 space-y-8">
+          <div
+            className="sm:mt-8 sm:space-y-20 space-y-8"
+            data-aos="fade-up-left"
+            data-aos-delay={200}
+            data-aos-duration={1000}
+          >
             <div>
               <div className="font-semibold text-xl text-blue-800">
                 Build a house
