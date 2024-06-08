@@ -11,10 +11,10 @@ const Nav = () => {
     { name: "SERVICE", link: "/" },
     { name: "CONTACT", link: "/" },
   ];
-    let [open, setOpen] = useState(false);
-   
+  let [open, setOpen] = useState(false);
+
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
@@ -38,7 +38,7 @@ const Nav = () => {
           }`}
         >
           {Links.map((link, idx) => (
-             <li
+            <li
               key={idx}
               className="group md:ml-8 font-poppins font-medium md:my-0 my-7"
             >
