@@ -13,6 +13,7 @@ import CompanyInfo from '../components/CompanyInfo';
 import Projects from '../components/Projects';
 import Success from '../components/Success';
 import Support from '../components/Support';
+import BestPractices from '../components/BestPractices';
 
 
 const Home = () => {
@@ -26,7 +27,8 @@ const Home = () => {
         <div></div>
         <About />
         <CompanyInfo />
-        <About />
+        
+        <BestPractices />
         <Projects />
         <Support />
         <Services />
