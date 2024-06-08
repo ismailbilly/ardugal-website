@@ -54,9 +54,12 @@ const Hero = ({data}) => {
                 {banner.text.subheading}
               </p>
               <div className="mt-8">
-                <Button backgroundColor={"secondary"}>
+                <button
+                  className="bg-secondary text-white font-[Poppins] py-2 px-6 rounded-full md:ml-8 hover:bg-secondary/55
+     duration-500"
+                >
                   {banner.text.callToAction}
-                </Button>
+                </button>
               </div>
             </div>
           </div>

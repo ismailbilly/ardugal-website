@@ -8,12 +8,13 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
       },
       backgroundImage: {
-        'hero-pattern': "url('./assets/carousel/construction.jpg')"
+        "hero-pattern": "url('./assets/carousel/construction.jpg')",
+        "try-pattern": "url('./assets/woman.jpg')",
       },
       colors: {
-        "primary": "#072D45",
-        'secondary': "#F47822"
-      }
+        primary: "#072D45",
+        secondary: "#F47822",
+      },
     },
   },
   plugins: [],

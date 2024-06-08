@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Nav = () => {
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/" },
+    { name: "ABOUT", link: "#About" },
     { name: "PROJECTS", link: "/" },
     { name: "SERVICE", link: "/" },
     { name: "CONTACT", link: "/" },

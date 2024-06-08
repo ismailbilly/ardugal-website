@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({backgroundColor, fontType="montserrat", children}) => {
+const Button = ({backgroundColor="secondary", fontType="montserrat", children}) => {
   return (
     // <button
     //   className="bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400

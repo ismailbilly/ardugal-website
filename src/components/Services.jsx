@@ -15,7 +15,7 @@ const serviceData = [
 
 const Services = () => {
     return (
-      <div className=" bg-gray-500 pt-16 flex flex-col  items-center">
+      <div className=" bg-black pt-16 flex flex-col  items-center">
         <h2 className="text-white/75 text-5xl font-montserrat text-center">
           DISCOVER <span className="text-secondary">ALL</span> SERVICES
         </h2>
@@ -30,7 +30,7 @@ const Services = () => {
                   <img
                     src={data.img}
                     alt=""
-                    className="w-full sm:h-full object-cover hover:scale-105 duration-150 ease-in"
+                    className="w-full sm:h-full object-cover hover:scale-105 duration-500 ease-in-out"
                   />
                 </div>
                 <div className="">
