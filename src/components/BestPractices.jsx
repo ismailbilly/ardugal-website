@@ -15,7 +15,7 @@ const BestPractices = () => {
               <div className="font-semibold text-xl text-red-800">
                 Compliance
               </div>
-              <div>
+              <div className=" text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
                 tempore.
               </div>
@@ -24,15 +24,15 @@ const BestPractices = () => {
               <div className="font-semibold text-xl text-blue-800">
                 Build a house
               </div>
-              <div>
+              <div className=" text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
                 tempore.
               </div>
             </div>
           </div>
 
-          <div className="rounded-full overflow-hidden">
-            <img src={engImg} alt="" w={100} h={100} />
+          <div className="rounded-full overflow-hidden border-4 ">
+            <img src={engImg} alt="" className='h-full object-cover'/>
           </div>
           <div
             className="sm:mt-8 sm:space-y-20 space-y-8"

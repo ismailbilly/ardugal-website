@@ -25,7 +25,7 @@ const Hero = ({data}) => {
 
 
   return (
-    <div className="relative  mb-10 overflow-hidden">
+    <div className="relative mt-[120px] mb-10 overflow-hidden">
       <Slider {...settings}>
         {data.map((banner, index) => (
           <div key={index} className="relative ">
@@ -35,7 +35,7 @@ const Hero = ({data}) => {
               className="w-full h-[550px] object-cover"
             />
             <div
-              className="absolute top-0 w-full h-full border-4 border-black bg-gray-900
+              className="absolute top-0  w-full h-full bg-gray-900
               opacity-60"
             ></div>
             <div

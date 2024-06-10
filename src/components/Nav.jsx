@@ -6,16 +6,16 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Nav = () => {
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "#About" },
-    { name: "PROJECTS", link: "/" },
-    { name: "SERVICE", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "ABOUT", link: "/about" },
+    { name: "PROJECTS", link: "/projects" },
+    { name: "SERVICE", link: "/services" },
+    { name: "CONTACT", link: "/contact" },
   ];
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="shadow-md w-full">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+    <div className="fixed top-0 shadow-md w-full z-50">
+      <div className="md:flex items-center justify-between bg-white md:px-10 px-7">
         <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800"
